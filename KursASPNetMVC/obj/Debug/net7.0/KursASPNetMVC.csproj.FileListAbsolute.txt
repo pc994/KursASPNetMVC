@@ -1,0 +1,15 @@
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\bin\Debug\net7.0\KursASPNetMVC.exe
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\bin\Debug\net7.0\KursASPNetMVC.deps.json
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\bin\Debug\net7.0\KursASPNetMVC.runtimeconfig.json
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\bin\Debug\net7.0\KursASPNetMVC.dll
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\bin\Debug\net7.0\KursASPNetMVC.pdb
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\KursASPNetMVC.csproj.AssemblyReference.cache
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\KursASPNetMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\KursASPNetMVC.AssemblyInfoInputs.cache
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\KursASPNetMVC.AssemblyInfo.cs
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\KursASPNetMVC.csproj.CoreCompileInputs.cache
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\KursASPNetMVC.dll
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\refint\KursASPNetMVC.dll
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\KursASPNetMVC.pdb
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\KursASPNetMVC.genruntimeconfig.cache
+C:\.Dev\.repos\KursASPNetMVC\KursASPNetMVC\obj\Debug\net7.0\ref\KursASPNetMVC.dll
