@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\.Dev\\.repos\\KursASPNetMVC\\Week2\\Week2_L7_exercises\\Week2_L7_exercises.csproj",
+      "projectUniqueName": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week2\\Week2_L7_exercises\\Week2_L7_exercises.csproj",
       "projectName": "Week2_L7_exercises",
-      "projectPath": "C:\\.Dev\\.repos\\KursASPNetMVC\\Week2\\Week2_L7_exercises\\Week2_L7_exercises.csproj",
+      "projectPath": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week2\\Week2_L7_exercises\\Week2_L7_exercises.csproj",
       "packagesPath": "C:\\Users\\ciesi\\.nuget\\packages\\",
-      "outputPath": "C:\\.Dev\\.repos\\KursASPNetMVC\\Week2\\Week2_L7_exercises\\obj\\",
+      "outputPath": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week2\\Week2_L7_exercises\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
