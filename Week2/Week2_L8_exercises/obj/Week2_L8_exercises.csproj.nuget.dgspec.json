@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week2\\Week2_L8_exercises\\Week2_L8_exercises.csproj": {}
+    "C:\\.Dev\\.repos\\KursASPNetMVC\\Week2\\Week2_L8_exercises\\Week2_L8_exercises.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week2\\Week2_L8_exercises\\Week2_L8_exercises.csproj": {
+    "C:\\.Dev\\.repos\\KursASPNetMVC\\Week2\\Week2_L8_exercises\\Week2_L8_exercises.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week2\\Week2_L8_exercises\\Week2_L8_exercises.csproj",
+        "projectUniqueName": "C:\\.Dev\\.repos\\KursASPNetMVC\\Week2\\Week2_L8_exercises\\Week2_L8_exercises.csproj",
         "projectName": "Week2_L8_exercises",
-        "projectPath": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week2\\Week2_L8_exercises\\Week2_L8_exercises.csproj",
+        "projectPath": "C:\\.Dev\\.repos\\KursASPNetMVC\\Week2\\Week2_L8_exercises\\Week2_L8_exercises.csproj",
         "packagesPath": "C:\\Users\\ciesi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week2\\Week2_L8_exercises\\obj\\",
+        "outputPath": "C:\\.Dev\\.repos\\KursASPNetMVC\\Week2\\Week2_L8_exercises\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
