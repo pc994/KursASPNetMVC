@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0SzY0yMVRyt6wVfQmecKGb+qJkgAfe16OmfXfqAKi9t2w0O7z51c87APVIB3xfySikgQcHSlLyMqf48MOsTvPQ==",
+  "dgSpecHash": "x/6Rxbz9SMAGnN7dUrUuAfjVm2FnZ6K9UKvFc50AbgDEE6JfDTCYD3w5n87GjFoBEnHc/flKe2Uy+syKU3R44g==",
   "success": true,
-  "projectFilePath": "C:\\.Dev\\.repos\\KursASPNetMVC\\Week3\\TaskApp.Domain\\TaskApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\Week3\\TaskApp.Domain\\TaskApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

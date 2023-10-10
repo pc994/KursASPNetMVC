@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.Dev\\.repos\\KursASPNetMVC\\KursASPNetMVC\\KursASPNetMVC.csproj": {}
+    "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\KursASPNetMVC\\KursASPNetMVC.csproj": {}
   },
   "projects": {
-    "C:\\.Dev\\.repos\\KursASPNetMVC\\KursASPNetMVC\\KursASPNetMVC.csproj": {
+    "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\KursASPNetMVC\\KursASPNetMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.Dev\\.repos\\KursASPNetMVC\\KursASPNetMVC\\KursASPNetMVC.csproj",
+        "projectUniqueName": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\KursASPNetMVC\\KursASPNetMVC.csproj",
         "projectName": "KursASPNetMVC",
-        "projectPath": "C:\\.Dev\\.repos\\KursASPNetMVC\\KursASPNetMVC\\KursASPNetMVC.csproj",
+        "projectPath": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\KursASPNetMVC\\KursASPNetMVC.csproj",
         "packagesPath": "C:\\Users\\ciesi\\.nuget\\packages\\",
-        "outputPath": "C:\\.Dev\\.repos\\KursASPNetMVC\\KursASPNetMVC\\obj\\",
+        "outputPath": "C:\\Users\\ciesi\\Source\\Repos\\KursASPNetMVC2\\KursASPNetMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
