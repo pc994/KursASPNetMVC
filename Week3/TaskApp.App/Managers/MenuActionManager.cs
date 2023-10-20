@@ -37,7 +37,7 @@ namespace TaskApp.App.Managers
             _menuActionService.AddMenuAction(new MenuAction(1, "Software problem", "Category"));
             _menuActionService.AddMenuAction(new MenuAction(2, "Hardware problem", "Category"));
             _menuActionService.AddMenuAction(new MenuAction(3, "Other problem", "Category"));
-            _menuActionService.AddMenuAction(new MenuAction(0, "Back", "Catrgory"));
+            _menuActionService.AddMenuAction(new MenuAction(0, "Back", "Category"));
 
             _menuActionService.AddMenuAction(new MenuAction(1, "New", "Status"));
             _menuActionService.AddMenuAction(new MenuAction(2, "In progress", "Status"));

@@ -9,7 +9,7 @@ namespace TaskApp.App.Concrete
 {
     public class TaskService : ITaskService
     {
-        List<Task> Tasks { get; set; }
+        public List<Task> Tasks { get; set; }
         public TaskService()
         {
             Tasks = new List<Task>();
