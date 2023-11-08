@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tasks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Task Id="1">
+    <Name>name</Name>
+    <Description>desc</Description>
+    <CategoryId>2</CategoryId>
+    <CategoryName>Hardware problem</CategoryName>
+    <StatusId>1</StatusId>
+    <StatusName>New</StatusName>
+    <PriorityId>1</PriorityId>
+    <PriorityName>Low</PriorityName>
+  </Task>
+  <Task Id="2">
+    <Name>111</Name>
+    <Description>222</Description>
+    <CategoryId>1</CategoryId>
+    <CategoryName>Software problem</CategoryName>
+    <StatusId>1</StatusId>
+    <StatusName>New</StatusName>
+    <PriorityId>1</PriorityId>
+    <PriorityName>Low</PriorityName>
+  </Task>
+</Tasks>
