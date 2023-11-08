@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
@@ -37,6 +40,7 @@ namespace TaskApp.App.Managers
             var xnkUtens = (List<Task>)xnlSerializer.Deserialize(stringReader);
             _taskService.Tasks = xnkUtens;
         }
+
         public void AddTask()
         {
             Console.WriteLine("\nPlease Select category of your problem: ");
@@ -142,11 +146,24 @@ namespace TaskApp.App.Managers
                         Console.WriteLine("Please select existing option");
                         break;
                 }
-                //update xml
                 UpdateXml(task);
                 _taskService.UpdateTask(task);
             }
             Console.WriteLine("\nTask updated successfully!\n");
+        }
+
+        private void ExportToJson()
+        {
+            var output = JsonConvert.SerializeObject(_taskService.Tasks);
+            var tasks = JsonConvert.DeserializeObject<List<Task>>(output);
+            DateTime currentDate = DateTime.Now;
+            string formattedDate = currentDate.ToString("yyyy-MM-dd_HH-mm-ss");
+
+            using StreamWriter streamWriter = new StreamWriter(@$"C:\.Dev\.repos\KursASPNetMVC\Week5\Tasks{formattedDate}.txt");
+            using JsonWriter jsonWriter = new JsonTextWriter(streamWriter);
+            JsonSerializer jsonSerializer = new JsonSerializer();
+            jsonSerializer.Serialize(jsonWriter, _taskService.Tasks);
+            Console.WriteLine("\nDone!");
         }
         private void AddTaskToXml(Task task)
         {
@@ -192,12 +209,12 @@ namespace TaskApp.App.Managers
                 }
                 Console.WriteLine();
             }
-            else if(choice.KeyChar == '2')
+            else if (choice.KeyChar == '2')
             {
                 Console.WriteLine("Please select category name: ");
                 var taskCategory = _paramsService.GetParametersByTypeName("Category");
                 var categoryId = SetTaskParam(taskCategory);
-                var categoryToShow = taskCategory.Where(t=>t.Id == categoryId).Select(t=>t.Name).FirstOrDefault();
+                var categoryToShow = taskCategory.Where(t => t.Id == categoryId).Select(t => t.Name).FirstOrDefault();
                 var task = _taskService.GetTaskByParams("Category", categoryToShow);
                 ViewTaskByParam(task, categoryToShow);
             }
@@ -247,6 +264,9 @@ namespace TaskApp.App.Managers
                 Console.Write("PRIORITY: \t\t");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine(task.PriorityName);
+            } else if (choice.KeyChar == '6')
+            {
+                ExportToJson();
             }
         }
 
@@ -301,7 +321,6 @@ namespace TaskApp.App.Managers
                 Console.WriteLine($"{action.Id}. {action.Name}");
             }
             var choice = Console.ReadKey();
-            Console.WriteLine();
             return choice;
         }
 
@@ -336,6 +355,7 @@ namespace TaskApp.App.Managers
                 {
                     Console.WriteLine($"ID: {task.Id}\t NAME: {task.Name}\t CATEGORY: {task.CategoryName}\t STATUS: {task.StatusName}\t PRIORITY: {task.PriorityName} ");
                 }
+                Console.WriteLine();
                 Console.WriteLine();
             }
         }

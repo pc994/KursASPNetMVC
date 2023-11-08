@@ -18,3 +18,4 @@ C:\.Dev\.repos\KursASPNetMVC\Week5\TaskApp\obj\Debug\net7.0\refint\TaskApp.dll
 C:\.Dev\.repos\KursASPNetMVC\Week5\TaskApp\obj\Debug\net7.0\TaskApp.pdb
 C:\.Dev\.repos\KursASPNetMVC\Week5\TaskApp\obj\Debug\net7.0\TaskApp.genruntimeconfig.cache
 C:\.Dev\.repos\KursASPNetMVC\Week5\TaskApp\obj\Debug\net7.0\ref\TaskApp.dll
+C:\.Dev\.repos\KursASPNetMVC\Week5\TaskApp\bin\Debug\net7.0\Newtonsoft.Json.dll

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/CpUxfQuRsqK/JcnPwg4aiTtmERKZ+8KcI9yghkp88DhOxUttB/lyf89GkLcrVp2Xu1EVgpZ7QpfBj+TwaV5ww==",
+  "dgSpecHash": "jPOKKzh/Upv7ESV10G1xbpd3tMidtz5tH9tC8vSJDo4v+8ZPZzrJ7/kNxd8Lgv9I2cbfhASeGZEUg2eGCyXiXQ==",
   "success": true,
   "projectFilePath": "C:\\.Dev\\.repos\\KursASPNetMVC\\Week5\\TaskApp.App\\TaskApp.App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ciesi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

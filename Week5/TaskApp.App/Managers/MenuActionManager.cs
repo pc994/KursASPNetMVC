@@ -33,6 +33,7 @@ namespace TaskApp.App.Managers
             _menuActionService.AddMenuAction(new MenuAction(3, "View tasks by status", "ShowTask"));
             _menuActionService.AddMenuAction(new MenuAction(4, "View tasks by priority", "ShowTask"));
             _menuActionService.AddMenuAction(new MenuAction(5, "View task details", "ShowTask"));
+            _menuActionService.AddMenuAction(new MenuAction(6, "Export all tasks to Json file", "ShowTask"));
             _menuActionService.AddMenuAction(new MenuAction(0, "Back", "ShowTask"));
 
             _menuActionService.AddMenuAction(new MenuAction(1, "Software problem", "Category"));
